@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ashleen's Profile Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="dashboard">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#dashboard">
+        <span class="brand-icon">✿</span>
+        <span>
+          <strong>my portfolio</strong>
+          <small>IT student dashboard</small>
+        </span>
+      </a>
+
+      <div class="profile-mini">
+        <img src="ngek.png" alt="Ashleen's profile photo" class="profile-photo">
+        <h3>Ashleen Mae T. Segundo</h3>
+        <p>second-year IT</p>
+      </div>
+
+      <nav class="navigation">
+        <a class="nav-link active" href="#dashboard">⌂ <span>Dashboard</span></a>
+        <a class="nav-link" href="#projects">▧ <span>My Projects</span></a>
+        <a class="nav-link" href="#skills">✧ <span>My Skills</span></a>
+        <a class="nav-link" href="#working">◷ <span>Currently Learning</span></a>
+        <a class="nav-link" href="#contact">♡ <span>Contact Me</span></a>
+      </nav>
+
+      <div class="sidebar-note">
+        <span>🌷</span>
+        <p>Growing one line of code at a time.</p>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="page-header" id="dashboard">
+        <div>
+          <p class="eyebrow">MY PERSONAL SPACE</p>
+          <h1>My Dashboard <span class="pink">♡</span></h1>
+        </div>
+        <span class="date-pill" id="today">My Portfolio</span>
+      </header>
+
+      <section class="welcome-card">
+        <div class="welcome-text">
+          <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+          <h2>Hi, I'm Ashleen! 🌸</h2>
+          <p>
+            An Information Technology student who loves learning about
+            programming, building projects, and exploring new technologies.
+          </p>
+          <a class="primary-button" href="#projects">Explore my projects ↗</a>
+        </div>
+
+        <div class="welcome-image-wrap">
+          <img src="ngek.png" alt="Ashleen" class="welcome-photo">
+          <span class="sparkle sparkle-one">✧</span>
+          <span class="sparkle sparkle-two">✦</span>
+          <span class="flower-decoration">🌷</span>
+        </div>
+      </section>
+
+      <section class="stats-grid" aria-label="Portfolio statistics">
+        <article class="stat-card stat-pink">
+          <div class="stat-icon">▧</div>
+          <p>Total Projects</p>
+          <h3 id="projectCount">0</h3>
+          <small>Things I've created</small>
+        </article>
+
+        <article class="stat-card stat-purple">
+          <div class="stat-icon">✧</div>
+          <p>Coding Skills</p>
+          <h3 id="skillCount">0</h3>
+          <small>Skills I'm developing</small>
+        </article>
+
+        <article class="stat-card stat-peach">
+          <div class="stat-icon">◷</div>
+          <p>In Progress</p>
+          <h3 id="workingCount">0</h3>
+          <small>Goals I'm working on</small>
+        </article>
+      </section>
+
+      <section class="content-section" id="projects">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">A LITTLE COLLECTION</p>
+            <h2>My Projects 🎀</h2>
+          </div>
+          <span class="section-pill">Things I've worked on</span>
+        </div>
+        <div class="projects-grid" id="projectGrid">
+          <p class="loading-message">Loading projects...</p>
+        </div>
+      </section>
+
+      <section class="content-section" id="skills">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">WHAT I'M LEARNING</p>
+            <h2>My Coding Skills 💻</h2>
+          </div>
+          <span class="section-pill">Always improving</span>
+        </div>
+
+        <div class="skills-card">
+          <p class="loading-message" id="skillsLoading">Loading skills...</p>
+          <div class="skills-list" id="skillsList"></div>
+          <p class="skills-note">My skill levels reflect my current learning progress.</p>
+        </div>
+      </section>
+
+      <section class="content-section" id="working">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">MY CURRENT GOALS</p>
+            <h2>Currently Learning 🌱</h2>
+          </div>
+          <span class="section-pill">Small steps count</span>
+        </div>
+        <div class="working-grid" id="workingGrid">
+          <p class="loading-message">Loading current goals...</p>
+        </div>
+      </section>
+
+      <section class="content-section" id="contact">
+        <div class="contact-card">
+          <div>
+            <p class="eyebrow">LET'S CONNECT</p>
+            <h2>Contact Me 💌</h2>
+            <p>Thank you for visiting my little corner of the internet!</p>
+          </div>
+          <div class="contact-details">
+            <p><strong>School:</strong> Nueva Vizcaya State University, Bambang Campus</p>
+            <p><strong>Expected graduation:</strong> 2029</p>
+            <p><strong>Email:</strong>
+              <a href="mailto:segundoashleenmae@gmail.com">segundoashleenmae@gmail.com</a>
+            </p>
+            <p><strong>GitHub:</strong>
+              <a href="https://github.com/neelish03" target="_blank" rel="noopener noreferrer">github.com/neelish03 ↗</a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        Made with ♡ by Ashleen Mae T. Segundo · <span id="year"></span>
+      </footer>
+    </main>
+  </div>
+</body>
+</html>

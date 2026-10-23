@@ -1,0 +1,79 @@
+
+{
+  "projects": [
+    {
+      "title": "Personal Portfolio Dashboard",
+      "description": "My personal portfolio website showcasing my background, projects, and coding knowledge.",
+      "icon": "🌸",
+      "status": "In Progress",
+      "technologies": ["HTML", "CSS", "JavaScript", "JSON"],
+      "link": ""
+    },
+    {
+      "title": "Java Programming Exercises",
+      "description": "Practicing programming fundamentals, variables, conditions, loops, and object-oriented programming.",
+      "icon": "☕",
+      "status": "Practice",
+      "technologies": ["Java", "OOP"],
+      "link": ""
+    },
+    {
+      "title": "Student Records Database",
+      "description": "Learning how to organize student information and manage data using database queries.",
+      "icon": "📚",
+      "status": "Learning",
+      "technologies": ["SQL", "MySQL"],
+      "link": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": 85
+    },
+    {
+      "name": "CSS",
+      "level": 65
+    },
+    {
+      "name": "JavaScript",
+      "level": 45
+    },
+    {
+      "name": "Java",
+      "level": 45
+    },
+    {
+      "name": "Python",
+      "level": 25
+    },
+    {
+      "name": "JSON",
+      "level": 60
+    },
+    {
+      "name": "SQL / MySQL",
+      "level": 40
+    }
+  ],
+  "workingOn": [
+    {
+      "title": "Improving My Portfolio",
+      "description": "Making my portfolio more attractive and practicing HTML, CSS, and JavaScript.",
+      "icon": "🎨",
+      "status": "In progress"
+    },
+    {
+      "title": "Practicing Java and Python",
+      "description": "Improving my programming fundamentals through coding exercises and small programs.",
+      "icon": "💻",
+      "status": "Currently learning"
+    },
+    {
+      "title": "Learning SQL Queries",
+      "description": "Practicing database concepts, SQL queries, and basic data management.",
+      "icon": "🗄️",
+      "status": "Currently learning"
+    }
+  ]
+}
