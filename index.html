@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ashleen Mae Segundo | IT Student Portfolio</title>
+  <meta name="description" content="Portfolio of Ashleen Mae Segundo, a second-year BS Information Technology student at Nueva Vizcaya State University.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fraunces:opsz,wght@9..144,500;9..144,700&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="style.css">
+
+  <script>
+    try {
+      var saved = localStorage.getItem("theme");
+      var dark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+      document.documentElement.setAttribute("data-theme", saved || (dark ? "dark" : "light"));
+    } catch (e) {
+      document.documentElement.setAttribute("data-theme", "light");
+    }
+  </script>
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#home" class="brand" aria-label="Ashleen Segundo, back to top">AS</a>
+
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch color theme">Dark mode</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="hello">Hi, I'm</p>
+          <h1>Ashleen Mae Tobias Segundo</h1>
+          <p class="tagline">Second-year IT student who enjoys turning ideas into working web pages.</p>
+          <p class="intro">
+            I study Information Technology at Nueva Vizcaya State University and I'm growing my skills in web development and databases.
+            I'm looking for an internship where I can learn from a team and build real things.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View my projects</a>
+            <a class="btn btn-ghost" href="#contact">Contact me</a>
+          </div>
+        </div>
+
+        <div class="portrait-wrap">
+          <div class="portrait">
+            <span class="initials" aria-hidden="true">AS</span>
+            <img src="profile.png" alt="Portrait of Ashleen Mae Segundo" width="320" height="400" onerror="this.remove()"
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About me</h2>
+
+        <div class="about-grid">
+          <div class="about-bio">
+            <p>
+              I'm Ashleen, a second-year college student from Nueva Vizcaya, Philippines.
+              I like building things step by step: a layout in HTML and CSS, then behavior in JavaScript, then data in MySQL.
+              Every school project teaches me something I didn't know the week before.
+            </p>
+            <p>
+              Right now I'm working on a database and webpage for Metheo's Cafe, and I keep rebuilding my own portfolio as I learn more.
+            </p>
+          </div>
+
+          <dl class="facts">
+            <div>
+              <dt>Education</dt>
+              <dd>Bachelor of Science in Information Technology<br>Nueva Vizcaya State University<br>Expected graduation: 2029</dd>
+            </div>
+            <div>
+              <dt>Career goals</dt>
+              <dd>Complete an internship in web development, then grow into a full-stack developer who works with both interfaces and databases.</dd>
+            </div>
+            <div>
+              <dt>Interests</dt>
+              <dd>Web design, databases, learning new programming languages, and making interfaces that are easy to use.</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-tint">
+      <div class="container">
+        <h2>Skills</h2>
+
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3>Programming languages</h3>
+            <ul class="chips">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Java</li><li>JSON</li><li>MySQL</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h3>Tools and technologies</h3>
+            <ul class="chips">
+              <li>VS Code</li><li>Git and GitHub</li><li>GitHub Pages</li><li>Live Server</li><li>Browser DevTools</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h3>Soft skills</h3>
+            <ul class="chips">
+              <li>Teamwork</li><li>Communication</li><li>Time management</li><li>Problem solving</li><li>Willingness to learn</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <p class="section-note">Things I've built for school and for practice.</p>
+
+    
+        <div id="project-grid" class="project-grid" aria-live="polite">
+          <p class="status">Loading projects...</p>
+        </div>
+
+        <div class="repos">
+          <h3>Latest on GitHub</h3>
+          <p class="section-note">My five most recently updated public repositories.</p>
+         
+          <ul id="repo-list" class="repo-list" aria-live="polite">
+            <li class="status">Loading repositories...</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-tint">
+      <div class="container">
+        <h2>Contact</h2>
+        <p class="section-note">Interested in working together or have a question? Send me a message.</p>
+
+        <div class="contact-grid">
+          <ul class="contact-links">
+            <li><span>Email</span><a href="mailto:youremail@example.com">youremail@example.com</a></li>
+            <li><span>GitHub</span><a href="https://github.com/neelish03" target="_blank" rel="noopener">github.com/neelish03</a></li>
+            <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener">linkedin.com/in/yourprofile</a></li>
+          </ul>
+
+          <form id="contact-form" class="form" novalidate>
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" autocomplete="name" aria-describedby="name-error">
+              <p class="error" id="name-error" role="alert"></p>
+            </div>
+
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" aria-describedby="email-error">
+              <p class="error" id="email-error" role="alert"></p>
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" aria-describedby="message-error"></textarea>
+              <p class="error" id="message-error" role="alert"></p>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Send message</button>
+            <p class="thanks" id="form-thanks" role="status" hidden>Thank you! Your message has been received.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year">2026</span> Ashleen Mae Segundo. Built with HTML, CSS and JavaScript.</p>
+    </div>
+  </footer>
+
+   <script src="script.js"></script>
+</body>
+</html>
