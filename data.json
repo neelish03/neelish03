@@ -1,79 +1,38 @@
-
-{
-  "projects": [
-    {
-      "title": "Personal Portfolio Dashboard",
-      "description": "My personal portfolio website showcasing my background, projects, and coding knowledge.",
-      "icon": "🌸",
-      "status": "In Progress",
-      "technologies": ["HTML", "CSS", "JavaScript", "JSON"],
-      "link": ""
-    },
-    {
-      "title": "Java Programming Exercises",
-      "description": "Practicing programming fundamentals, variables, conditions, loops, and object-oriented programming.",
-      "icon": "☕",
-      "status": "Practice",
-      "technologies": ["Java", "OOP"],
-      "link": ""
-    },
-    {
-      "title": "Student Records Database",
-      "description": "Learning how to organize student information and manage data using database queries.",
-      "icon": "📚",
-      "status": "Learning",
-      "technologies": ["SQL", "MySQL"],
-      "link": ""
-    }
-  ],
-  "skills": [
-    {
-      "name": "HTML",
-      "level": 85
-    },
-    {
-      "name": "CSS",
-      "level": 65
-    },
-    {
-      "name": "JavaScript",
-      "level": 45
-    },
-    {
-      "name": "Java",
-      "level": 45
-    },
-    {
-      "name": "Python",
-      "level": 25
-    },
-    {
-      "name": "JSON",
-      "level": 60
-    },
-    {
-      "name": "SQL / MySQL",
-      "level": 40
-    }
-  ],
-  "workingOn": [
-    {
-      "title": "Improving My Portfolio",
-      "description": "Making my portfolio more attractive and practicing HTML, CSS, and JavaScript.",
-      "icon": "🎨",
-      "status": "In progress"
-    },
-    {
-      "title": "Practicing Java and Python",
-      "description": "Improving my programming fundamentals through coding exercises and small programs.",
-      "icon": "💻",
-      "status": "Currently learning"
-    },
-    {
-      "title": "Learning SQL Queries",
-      "description": "Practicing database concepts, SQL queries, and basic data management.",
-      "icon": "🗄️",
-      "status": "Currently learning"
-    }
-  ]
-}
+[
+  {
+    "title": "Metteo's Cafe",
+    "description": "A database and webpage for Metheo's Cafe. The MySQL database stores the cafe's information and the webpage presents it to customers. This project is still in progress.",
+    "technologies": ["HTML", "CSS", "JavaScript", "MySQL"],
+    "role": "Database designer and web developer",
+    "screenshot": "metheos-cafe.jpg",
+    "link": "https://github.com/neelish03/metheos-cafe",
+    "linkLabel": "View on GitHub"
+  },
+  {
+    "title": "Login Page",
+    "description": "A login page built as a school activity, focused on a clear and simple form layout.",
+    "technologies": ["HTML", "CSS", "JavaScript"],
+    "role": "Designer and developer",
+    "screenshot": "login-page.jpg",
+    "link": "https://github.com/neelish03/login-page",
+    "linkLabel": "View on GitHub"
+  },
+  {
+    "title": "Bill Splitter",
+    "description": "An app that splits shared costs and shows who owes whom, made for friends sharing expenses on a trip.",
+    "technologies": ["HTML"],
+    "role": "Designer and developer",
+    "screenshot": "bill-splitter.jpg",
+    "link": "https://github.com/neelish03/bill-splitter",
+    "linkLabel": "View on GitHub"
+  },
+  {
+    "title": "Personal Portfolio",
+    "description": "This website. It loads my projects from a JSON file, shows my latest GitHub repositories through the GitHub API, and has a light and dark theme.",
+    "technologies": ["HTML", "CSS", "JavaScript", "JSON"],
+    "role": "Designer and developer",
+    "screenshot": "portfolio.jpg",
+    "link": "https://github.com/neelish03/neelish03.github.io",
+    "linkLabel": "View on GitHub"
+  }
+]
